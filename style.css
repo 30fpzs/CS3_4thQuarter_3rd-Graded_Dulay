@@ -70,45 +70,6 @@ nav a :hover {
     height: 100%;
 }
 
-/* ----- CSS properties for footer tag to display socmed icons facebook, twitter and github using sprites ---
-- Discover how to use image sprites to make this work
-*/
-footer {
-    width: 100%;
-    background-color: white;
-    color: #333;
-    text-align: center;
-    padding: 10px 0;
-}
-footer a {
-  text-decoration: none;
-}
-
-.icon {
-    width: 32px;
-    height: 32px;
-    display: inline-block;
-    background: url('sprites.png') no-repeat;
-}
-.facebook {
-    background-position: -226px -129px;
-}
-.twitter {
-    background-position: -340px -129px;
-}
-.github {
-    background-position: -456px -129px;
-}
-
-.facebook:hover {
-  background-position: -226px -55px;
-}
-.twitter:hover {
-  background-position: -340px -54px;
-}
-.github:hover {
-  background-position: -456px -54px;
-}
 
 /* --- CSS for documenting process in the table in the errorlogs.html --*/
 table{
